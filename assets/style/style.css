@@ -382,7 +382,8 @@ body{
     flex-wrap: wrap;
 }
 .values .content-container{
-    height: 35vh;
+    width: 49%;
+    height: 22rem;
     box-sizing: border-box;
     position: relative;
     margin-top: 1.5rem;
@@ -394,20 +395,22 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -11;
+    z-index:-12;
 }
 .values img{
     border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
 }
 .values .values-content{
     background: rgba(255, 255, 255, 0.9);
     padding: 1rem;
-    margin: 1rem;
     border-radius: 4px;
     box-shadow: 1px 1px 1px 1px #e2e2e2;
     position: absolute;
-    left: 0;
+    left: 1rem;
     bottom: 1rem;
+    right: 1rem;
 }
 
 .values h4{
@@ -535,13 +538,26 @@ body{
 .portfolio .flash-box{
     background: rgba(255, 255, 255, 0.8);
     padding: 1rem;
-    width: 90%;
     position: absolute;
     left: 1rem;
     bottom: 1rem;
+    right: 1rem;
 }
 .content-box:hover .flash-box{
     z-index: 21;
+}
+.portfolio h5{
+    line-height: 0;
+    margin-bottom: 1rem;
+}
+.card p{
+    margin: 0;
+}
+.portfolio i{
+    margin-left: 1rem;
+}
+.portfolio img{
+    height: 100%;
 }
 /*----------------------------------------------Team-----------------------------*/
 .team{
