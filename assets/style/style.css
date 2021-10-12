@@ -398,7 +398,7 @@ body{
     z-index:-12;
 }
 .values img{
-    border-radius: 8px;
+    border-radius: 4px;
     height: 100%;
     object-fit: cover;
 }
@@ -562,12 +562,13 @@ body{
 /*----------------------------------------------Team-----------------------------*/
 .team{
     background: #FEF9F7;
+    padding: 4rem 0;
 }
 .team h6{
     font-size: 2rem;
     font-weight: 700;
     color: #645753;
-    margin: 2rem 0;
+    margin-bottom: 2rem;
     text-align: center;
 }
 .team p{
@@ -579,6 +580,17 @@ body{
 }
 .team .flex-wrapper{
     width: 100%;
+}
+.team .article{
+    width: 23.5%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #d4cfcf;
+}
+.team img{
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .team .article h5{
     text-align: center;
@@ -596,14 +608,14 @@ body{
     width: 100%;
     position: relative;
     height: 35vh;
+    border-radius: 4px;
 }
 .team .media{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-
+    right: 0;
+    bottom: 0;
 }
 .team .social{
     position: absolute;
@@ -645,7 +657,9 @@ body{
     margin: 2rem 0;
 }
 .pricing .packages{
+    width: 23.5%;
     box-shadow: 1px 1px 4px 4px #e2e2e2;
+    border-radius: 5px;
 }
 
 .pricing .heading{
@@ -666,7 +680,7 @@ body{
 .pricing .content h5{
     text-align: center;
     color: #C5C5C5;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 .pricing .content .col{
     color: #E45233;
@@ -674,7 +688,7 @@ body{
     font-weight: 700;
 }
 .pricing .content p{
-    margin: .5rem 0;
+    margin: 1rem 0;
     font-weight: 300;
 }
 .pricing .content .faded{
@@ -732,6 +746,7 @@ body{
 /*---------------------------------------------------------------------------------------------------------------Contact----------------------------------------------------------*/
 .contact{
     flex-direction: column;
+    padding: 2rem 0;
 }
 .contact h6{
     font-size: 2rem;
@@ -769,6 +784,9 @@ body{
     font-weight: 700;
     margin-bottom: .5rem;
 }
+.contact .address{
+    width: 32%;
+}
 .contact .address p{
     font-weight: 300;
     color: #656262;
@@ -783,7 +801,14 @@ body{
     width: 100%;
     margin-bottom: 1rem;
     padding: .5rem;
-    border: #7F878E .5px solid;
+    color: #7F878E;
+}
+
+.contact .flex-input{
+    display: block;
+    width: 49%;
+    margin-bottom: 1rem;
+    padding: .5rem;
     color: #7F878E;
 }
 .contact .name{
