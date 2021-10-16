@@ -595,13 +595,13 @@ body{
     text-align: center;
     font-size: 1.5rem;
     color: #554845;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-weight: 700;
 }
 .team .article p{
     margin: 0;
     font-size: .75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .team .profile-container{
     width: 100%;
@@ -834,7 +834,7 @@ body{
     color: #313030;
 }
 .link-wrapper{
-    width: 60%;
+    width: 100%;
 }
 .quicklink h1{
     font-size: 1.5rem;
@@ -978,56 +978,7 @@ footer{
     color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*---------------------------------------------------------------------------------------------------------Media-query------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1400px) {
     .container{
         max-width: 1200px;
@@ -1054,12 +1005,27 @@ footer{
     }
 }
 @media screen and (max-width: 768px) {
-    html{
+    html {
         font-size: 12px;
     }
-    .container{
+    .container {
         max-width: 720px;
         padding: 0 2%;
+    }
+    .sm-flexwrap{
+        flex-wrap: wrap;
+    }
+    .sm-100{
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+    }
+    .sm-49{
+        flex-basis: 48%;
+        margin-bottom: 2rem;
+    }
+    /*---------------------Intent---------------------------*/
+    .intent{
+        height: 50vh;
     }
 }
 @media screen and (max-width: 576px) {
